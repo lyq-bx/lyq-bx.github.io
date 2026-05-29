@@ -121,25 +121,21 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 .role-card img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
   margin-bottom: 1rem;
-  border: 4px solid #f9c74f;
 }
 .role-card h3 {
+  font-size: 1.4rem;
   color: #2c6e49;
   margin-bottom: 0.5rem;
 }
-.role-card p {
-  color: #666;
-}
 
-/* 美图欣赏 */
+/* 美图网格 */
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
 }
 .gallery-grid img {
@@ -147,22 +143,19 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s;
 }
 .gallery-grid img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
-/* 关于区块 */
-.about {
-  background-color: #e8f5e9;
-}
+/* 关于 */
 .about p {
   text-align: center;
-  font-size: 1.1rem;
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
-  color: #555;
+  font-size: 1.1rem;
 }
 
 /* 页脚 */
@@ -171,21 +164,48 @@ body {
   color: #fff;
   text-align: center;
   padding: 1.5rem 0;
+  margin-top: 2rem;
 }
 
-/* 响应式：手机适配 */
+/* 联系方式区块 */
+.contact {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.contact h3 {
+  color: #2c6e49;
+  margin-bottom: 1rem;
+}
+.contact p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+.contact a {
+  color: #2c6e49;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.contact a:hover {
+  color: #f9c74f;
+}
+
+/* 手机适配（关键） */
 @media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .nav a {
+    margin: 0 0.8rem;
+  }
   .banner h1 {
     font-size: 2rem;
   }
-  .banner {
-    height: 350px;
-  }
-  .nav a {
-    margin-left: 1rem;
-    font-size: 0.9rem;
-  }
-  .section-title {
-    font-size: 1.5rem;
+  .section {
+    padding: 2rem 0;
   }
 }
