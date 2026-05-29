@@ -24,5 +24,5 @@ title: 熊出没介绍
 
 
 <div style="text-align: center; margin-top: 30px;">
-<img src="/assets/images/forest_bg.jpg" alt="狗熊岭森林" style="max-width: 80%; border-radius: 8px;">
+<img src="/assets/images/forest.png" alt="狗熊岭森林" style="max-width: 80%; border-radius: 8px;">
 </div>
