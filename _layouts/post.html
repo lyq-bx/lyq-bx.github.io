@@ -1,8 +1,22 @@
 ---
 layout: default
 ---
+<<<<<<< HEAD
 
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date: "%Y年%m月%d日" }}</p>
 
 {{ content }}
+=======
+<h1>{{ page.title }}</h1>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+    - <a href="{{ author.url }}">{{ author.name }}</a>
+  {% endif %}
+</p>
+
+{{ content }}
+>>>>>>> 1e689541bde161e38749989735df735ee89c362a

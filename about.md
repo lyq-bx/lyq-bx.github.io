@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: page
 title: 关于我们
 ---
@@ -16,3 +17,11 @@ title: 关于我们
 ## 🌱 加入我们
 
 如果你也热爱大自然，想要为环保事业贡献力量，欢迎加入我们的社区！
+=======
+layout: default
+title: About
+---
+# About page
+
+This page tells you a little bit about me.
+>>>>>>> 1e689541bde161e38749989735df735ee89c362a
