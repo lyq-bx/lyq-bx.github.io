@@ -1,8 +1,6 @@
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" 
-       {% if page.url == item.link %}class="current"{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
+<nav style="background: #3a7d44; padding: 15px; text-align: center; border-radius: 8px; margin: 10px;">
+  <a href="/" style="color: #fff; font-size: 18px; margin: 0 15px; text-decoration: none;">首页</a>
+  <a href="/about" style="color: #fff; font-size: 18px; margin: 0 15px; text-decoration: none;">动画介绍</a>
+  <a href="/blog" style="color: #fff; font-size: 18px; margin: 0 15px; text-decoration: none;">狗熊岭日记</a>
+  <a href="/staff" style="color: #fff; font-size: 18px; margin: 0 15px; text-decoration: none;">角色档案</a>
 </nav>

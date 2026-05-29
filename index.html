@@ -1,30 +1,31 @@
 ---
-<<<<<<< HEAD
-layout: home
-title: 熊出没森林
----
-
-# 欢迎来到熊出没森林 🐻
-
-探索大自然的奥秘，保护我们的家园 🌲
-
-## 最新文章
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
-
----
-
-🌳 保护森林，人人有责 🌳
-=======
 layout: default
-title: Home
+title: 首页
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
->>>>>>> 1e689541bde161e38749989735df735ee89c362a
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/assets/images/bear_banner.jpg" alt="熊出没全家福" style="max-width: 90%; border-radius: 12px;">
+  <h1 style="color: #3a7d44; margin-top: 20px;">欢迎来到狗熊岭乐园 🐻</h1>
+  <p style="font-size: 18px; color: #684526;">熊大、熊二、光头强在这里陪你度过欢乐时光</p>
+</div>
+
+<div style="background: #fff; padding: 25px; border: 2px solid #684526; border-radius: 12px; margin: 20px;">
+  <h2 style="color: #fcd044;">站点简介</h2>
+  <p>这里是专属熊出没的趣味小站，你可以查看动画介绍、浏览角色档案、阅读狗熊岭日常小故事。</p>
+  <p>导航栏可快速切换各个板块，快来一起探索吧！</p>
+</div>
+
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 30px 10px;">
+  <div style="text-align: center;">
+    <img src="/assets/images/bear1.png" alt="熊大" style="width: 130px;">
+    <p>聪明稳重 · 熊大</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/assets/images/bear2.png" alt="熊二" style="width: 130px;">
+    <p>贪吃可爱 · 熊二</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/assets/images/qiang.png" alt="光头强" style="width: 130px;">
+    <p>幽默有趣 · 光头强</p>
+  </div>
+</div>

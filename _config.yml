@@ -1,8 +1,11 @@
-<<<<<<< HEAD
-title: 熊出没森林
+title: 狗熊岭乐园
+description: 熊出没主题小站，记录狗熊岭的欢乐日常
 baseurl: ""
 url: "https://lyq-bx.github.io"
-=======
+
+author: 站长
+theme_color: "#3a7d44"
+
 collections:
   authors:
     output: true
@@ -27,4 +30,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
->>>>>>> 1e689541bde161e38749989735df735ee89c362a

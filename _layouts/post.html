@@ -1,22 +1,19 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date: "%Y年%m月%d日" }}</p>
+<article style="background: #fff; border: 2px solid #684526; border-radius: 12px; padding: 25px; margin: 20px 0;">
+  <h1 style="color: #3a7d44; border-bottom: 2px solid #fcd044; padding-bottom: 10px;">{{ page.title }}</h1>
 
-{{ content }}
-=======
-<h1>{{ page.title }}</h1>
+  <div style="color: #666; font-size: 14px; margin-bottom: 20px;">
+    <span>📅 发布日期：{{ page.date | date: "%Y年%m月%d日" }}</span>
+  </div>
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
+  <div style="line-height: 1.8; font-size: 16px;">
+    {{ content }}
+  </div>
 
-{{ content }}
->>>>>>> 1e689541bde161e38749989735df735ee89c362a
+  <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd;">
+    <a href="/blog" style="color: #3a7d44; font-weight: bold;">← 返回狗熊岭日记</a>
+  </div>
+</article>

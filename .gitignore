@@ -1,18 +1,13 @@
-<<<<<<< HEAD
-# Jekyll
+# Jekyll 编译缓存与产物
 _site/
 .jekyll-cache/
 .sass-cache/
 
-# Ruby
+# Ruby 依赖文件
 Gemfile.lock
 
-# 系统/编辑器文件
-.DS_Store
+# 系统垃圾文件
 Thumbs.db
+.DS_Store
 *.tmp
-=======
-_site/
-.jekyll-cache/
-*.log
->>>>>>> 1e689541bde161e38749989735df735ee89c362a
+*.bak
