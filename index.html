@@ -1,0 +1,23 @@
+---
+layout: home
+title: 熊出没森林
+---
+
+# 欢迎来到熊出没森林 🐻
+
+探索大自然的奥秘，保护我们的家园 🌲
+
+## 最新文章
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
+🌳 保护森林，人人有责 🌳

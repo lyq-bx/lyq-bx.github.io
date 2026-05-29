@@ -1,0 +1,12 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ruby
+Gemfile.lock
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+*.tmp
