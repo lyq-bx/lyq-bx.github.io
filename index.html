@@ -1,35 +1,88 @@
----
-layout: default
-title: 首页
----
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>熊出没 | 狗熊岭乐园</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="assets/images/logo.png" alt="熊出没LOGO">
+      </a>
+      <nav class="nav">
+        <a href="#home">首页</a>
+        <a href="#roles">角色介绍</a>
+        <a href="#gallery">美图欣赏</a>
+        <a href="#about">关于本站</a>
+      </nav>
+    </div>
+  </header>
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="/assets/images/bear_banner.png" alt="熊出没全家福" style="max-width: 90%; border-radius: 12px;">
-  <h1 style="color: #3a7d44; margin-top: 20px;">欢迎来到狗熊岭乐园 🐻</h1>
-  <p style="font-size: 18px; color: #684526;">熊大、熊二、光头强在这里陪你度过欢乐时光</p>
-</div>
+  <!-- 首页横幅 -->
+  <section id="home" class="banner">
+    <div class="banner-content">
+      <h1>欢迎来到狗熊岭</h1>
+      <p>熊大、熊二，光头强的欢乐森林世界</p>
+    </div>
+  </section>
 
-<div style="background: #fff; padding: 25px; border: 2px solid #684526; border-radius: 12px; margin: 20px;">
-  <h2 style="color: #fcd044;">站点简介</h2>
-  <p>这里是专属熊出没的趣味小站，你可以查看动画介绍、浏览角色档案、阅读狗熊岭日常小故事。</p>
-  <p>导航栏可快速切换各个板块，快来一起探索吧！</p>
-</div>
+  <!-- 角色介绍 -->
+  <section id="roles" class="section roles">
+    <div class="container">
+      <h2 class="section-title">角色介绍</h2>
+      <div class="role-grid">
+        <!-- 熊大 -->
+        <div class="role-card">
+          <img src="assets/images/big bear.png" alt="熊大">
+          <h3>熊大</h3>
+          <p>聪明稳重，保护森林的领头熊</p>
+        </div>
+        <!-- 熊二 -->
+        <div class="role-card">
+          <img src="assets/images/little bear.png" alt="熊二">
+          <h3>熊二</h3>
+          <p>憨厚可爱，爱吃蜂蜜，力气超大</p>
+        </div>
+        <!-- 光头强 -->
+        <div class="role-card">
+          <img src="assets/images/光头强.png" alt="光头强">
+          <h3>光头强</h3>
+          <p>伐木工，内心善良，经常被熊欺负</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="/assets/images/all_characters.png" alt="熊出没角色全家福" style="max-width: 80%; border-radius: 12px;">
-</div>
+  <!-- 美图欣赏 -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2 class="section-title">美图欣赏</h2>
+      <div class="gallery-grid">
+        <img src="assets/images/all_characters.png" alt="角色全家福">
+        <img src="assets/images/bear_banner.png" alt="熊出没横幅">
+        <img src="assets/images/big bear.png" alt="熊大">
+        <img src="assets/images/little bear.png" alt="熊二">
+      </div>
+    </div>
+  </section>
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 30px 10px;">
-  <div style="text-align: center;">
-    <img src="/assets/images/big bear.png" alt="熊大" style="width: 200px; border-radius: 8px;">
-    <p>聪明稳重 · 熊大</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="/assets/images/little bear.png" alt="熊二" style="width: 200px; border-radius: 8px;">
-    <p>贪吃可爱 · 熊二</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="/assets/images/光头强.png" alt="光头强" style="width: 200px; border-radius: 8px;">
-    <p>幽默有趣 · 光头强</p>
-  </div>
-</div>
+  <!-- 关于 -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">关于本站</h2>
+      <p>这是一个熊出没主题爱好者站点，分享熊出没角色与美图，愿大家每天开心！</p>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 熊出没爱好者站 | 用爱制作</p>
+    </div>
+  </footer>
+</body>
+</html>
